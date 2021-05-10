@@ -3,8 +3,12 @@ git init: tạo thư mục git local
 git status: để kiểm tra status(vùng) của file
 git add . : đưa tất cả file có sự thay đổi vào vùng staging
 git add [ten_file]: đưa một file có sự thay đổi vào vùng staging
+<<<<<<< HEAD
 git rm --cached <file> : đưa một file từ staging quay ngược lại vùng working directory
 git config --global user.email "longta10a2@gmail.com": set email(thay đổi email phải khai báo lại)
 git config --global user.name "Long" : set tên
 git commit -m "lời nhắn": đưa file có sự thay đổi sang vùng git kèm 1 lời nhắn (local repo)
 git remote add origin https://github.com/0769926906/demo-git2: tạo đường liên kết giữa máy và sever
+=======
+Hello!
+>>>>>>> e727edf5131c94e814a4f040d599355ea857c595
