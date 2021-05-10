@@ -7,4 +7,8 @@ git rm --cached <file> : đưa một file từ staging quay ngược lại vùng
 git config --global user.email "longta10a2@gmail.com": set email(thay đổi email phải khai báo lại)
 git config --global user.name "Long" : set tên
 git commit -m "lời nhắn": đưa file có sự thay đổi sang vùng git kèm 1 lời nhắn (local repo)
-git remote add origin https://github.com/0769926906/demo-git2: tạo đường liên kết giữa máy và sever
+git remote add origin "link": tạo liên kết giữa máy và sever
+git push: đẩy code từ local lên sever
+git branch <tên branch mới>: tạo nhánh mới
+git checkout <branch name>: chuyển từ branch master sang branch mới
+git checkout -b <tên branch mới>: tạo branch mới và chuyển qua branch mới luôn
